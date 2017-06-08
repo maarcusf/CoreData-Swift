@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Professor" representedClassName="Professor" syncable="YES">
+        <attribute name="matricula" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="idUniversidade" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Universidade" inverseName="idProfessor" inverseEntity="Universidade" syncable="YES"/>
+    </entity>
+    <entity name="Universidade" representedClassName="Universidade" syncable="YES">
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sigla" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="idProfessor" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Professor" inverseName="idUniversidade" inverseEntity="Professor" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Professor" positionX="-1622" positionY="-2925" width="128" height="88"/>
+        <element name="Universidade" positionX="-1883" positionY="-2925" width="128" height="88"/>
+    </elements>
 </model>

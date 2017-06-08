@@ -13,6 +13,8 @@
 		240C9CE71EE97D4100306516 /* Exemplo_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 240C9CE51EE97D4100306516 /* Exemplo_CoreData.xcdatamodeld */; };
 		240C9CE91EE97D4100306516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240C9CE81EE97D4100306516 /* Assets.xcassets */; };
 		240C9CEC1EE97D4100306516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240C9CEA1EE97D4100306516 /* LaunchScreen.storyboard */; };
+		240C9CF41EE9826300306516 /* Professor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C9CF31EE9826300306516 /* Professor.swift */; };
+		240C9CF81EE987F400306516 /* Universidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C9CF71EE987F400306516 /* Universidade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		240C9CE81EE97D4100306516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		240C9CEB1EE97D4100306516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		240C9CED1EE97D4100306516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240C9CF31EE9826300306516 /* Professor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Professor.swift; sourceTree = "<group>"; };
+		240C9CF71EE987F400306516 /* Universidade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Universidade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				240C9CEA1EE97D4100306516 /* LaunchScreen.storyboard */,
 				240C9CED1EE97D4100306516 /* Info.plist */,
 				240C9CE51EE97D4100306516 /* Exemplo_CoreData.xcdatamodeld */,
+				240C9CF31EE9826300306516 /* Professor.swift */,
+				240C9CF71EE987F400306516 /* Universidade.swift */,
 			);
 			path = "Exemplo CoreData";
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				240C9CE11EE97D4000306516 /* ViewController.swift in Sources */,
+				240C9CF41EE9826300306516 /* Professor.swift in Sources */,
 				240C9CE71EE97D4100306516 /* Exemplo_CoreData.xcdatamodeld in Sources */,
+				240C9CF81EE987F400306516 /* Universidade.swift in Sources */,
 				240C9CDF1EE97D4000306516 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
